@@ -1,0 +1,49 @@
+<p>
+Un nombre  <strong>N</strong>, dont l'écriture décimale comporte deux chiffres ou plus, vous est donné.
+Dans cette mission, il vous faut déterminer le plus petit nombre entier positif <strong>X</strong>,
+dont le produit des chiffres est N.
+Si un tel X n'existe pas, retourner 0.
+</p>
+<p>
+Observons le cas de N = 20. 
+20 se factorise en 2 * 10, mais 10 n'est pas un chiffre.
+20 se factorise aussi en 4 * 5 (qui donne 45 et 54) ou encore en 2 * 2 *  5 (qui donne 225, 252, 522).
+Le résultat sera donc 45 pour N = 20.
+</p>
+
+<p>
+    <strong>Indications: </strong> Penser aux nombres premiers  (qui ne sont divisibles que par 1 et eux-mêmes) 
+    et méfiez-vous des boucles qui ne terminent pas.
+</p>
+
+<p>
+    <strong>Input: </strong> Un nombre N (int).
+</p>
+
+<p>
+    <strong>Output: </strong> Le nombre X(int).
+</p>
+
+<div class="for_info_only">
+    <p>
+        <strong>Exemples:</strong>
+    </p>
+<pre class="brush: python">checkio(20) == 45
+checkio(21) == 37
+checkio(17) == 0
+checkio(33) == 0
+</pre>
+</div>
+<p>
+    <strong>Application:</strong>
+    Cette mission vous montre comment utiliser les nombres entiers en programmation.
+    On utilise la factorisation d'un nombre pour construire de nouveaux nombres.<br>
+    Bien sûr, ce problème peut être résolu par approche exhaustive ("brute force"), 
+    mais est-ce la meilleure manière de procéder ?<br>
+    Les nombres sont le socle des mathématiques et de l'informatique.
+</p>
+
+<p>
+    <strong>Précondition: </strong><br>
+    9 &lt; N &lt; 10<sup>5</sup>.
+</p>
