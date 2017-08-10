@@ -25,11 +25,20 @@
     <p>
         <strong>Example:</strong>
     </p>
+{% if interpreter.slug == "js-node" %}
+<pre class="brush: python">numbersFactory(20) == 45
+numbersFactory(21) == 37
+numbersFactory(17) == 0
+numbersFactory(33) == 0
+</pre>
+{% else %}
 <pre class="brush: python">checkio(20) == 45
 checkio(21) == 37
 checkio(17) == 0
 checkio(33) == 0
 </pre>
+{% endif %}
+
 </div>
 <p>
     <strong>How it is used:</strong>

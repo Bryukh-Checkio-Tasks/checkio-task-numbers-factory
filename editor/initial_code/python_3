@@ -10,3 +10,4 @@ if __name__ == '__main__':
     assert checkio(33) == 0, "4th example"
     assert checkio(3125) == 55555, "5th example"
     assert checkio(9973) == 0, "6th example"
+    print("Coding complete? Click 'Check' to review your tests and earn cool rewards!")
