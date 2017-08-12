@@ -12,7 +12,7 @@ if (!global.is_checking) {
     assert.equal(numbersFactory(21), 37);
     assert.equal(numbersFactory(17), 0);
     assert.equal(numbersFactory(33), 0);
-    assert.equal(numbersFactory(3125), 5555);
+    assert.equal(numbersFactory(3125), 55555);
     assert.equal(numbersFactory(9973), 0);
     console.log("Coding complete? Click 'Check' to review your tests and earn cool rewards!");
 }
